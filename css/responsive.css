@@ -1,0 +1,145 @@
+@media(min-width: 320px) and (max-width: 575.99px){
+    .container {
+        padding: 0 12px;
+    }   
+    
+    .navbar {
+        padding: 10px 0;
+        background: bisque;
+    }
+
+    .navbar .navbar-toggler{
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .navbar .navbar-toggler i{
+        color: #6A4DF4;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .navbar .navbar-nav {
+        column-gap: 34px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 7px;
+        margin-bottom: 15px !important;
+    }
+
+    .navbar .navbar-collapse {
+        background: #ffffff;
+        padding: 20px 12px 12px;
+        border-radius: 10px;
+        margin-top: 10px;
+        -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+        box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.3);
+    }
+
+    .costom-btn {
+        width: 100%;
+        height: 36px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+/* ===================================================================navbar end====== */
+
+    .main-banner .container h2 {
+        margin: 120px auto 0px;
+        width: auto;
+        font-size: 33px;
+    }
+
+    .main-banner .container p {
+        margin: 12px auto 16px;
+        width: auto;
+        line-height: 18px;
+        font-size: 12px;
+    }
+
+    .main-banner .container .costom-btn {
+        height: 43px;
+        font-size: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.7px);
+        -webkit-backdrop-filter: blur(5.7px);
+        transition: all linear .4s;
+    }
+
+    .main-banner .container .costom-btn:hover {
+        background: rgba(105, 77, 244, 0.1);
+    }
+
+    .banner-part {
+        height: 500px;
+    }
+    /* ==============================================================banner end====== */
+
+    .success-part .container {
+        margin-top: 50px;
+        padding-top: 20px;
+        height: auto;
+        padding-bottom: 25px;
+        border-radius: 10px;
+    }
+
+    .success-part .container .col-lg-4 .content {
+        padding-left: 8px;
+    }
+
+    .success-part .container .col-lg-4 .content p {
+        font-size: 15px;
+    }
+
+    .success-part .container .col-lg-4 .content h2 {
+        font-size: 26px;
+        margin-top: 3px;
+    }
+
+    .success-part .container .col-lg-8 .right {
+        column-gap: 18px;
+        padding-right: 0px;
+        padding-top: 5px;
+        justify-content: space-between;
+        padding-left: 8px;
+    }
+
+    .success-part .container .col-lg-8 .right h2 {
+        font-size: 30px;
+    }
+
+    .success-part .container .col-lg-8 .right p {
+        font-weight: 400;
+        font-size: 13px;
+        margin-top: 2px;
+        line-height: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
